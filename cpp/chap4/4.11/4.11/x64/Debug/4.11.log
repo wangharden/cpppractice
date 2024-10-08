@@ -1,0 +1,2 @@
+﻿4.15.obj : error LNK2005: main 已经在 4.11.obj 中定义
+G:\practice\cpp\chap4\4.11\x64\Debug\4.11.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

@@ -11,7 +11,7 @@ int main(){
     int y= 0;
     *p = y;
     p =&y;
-    std::cout<<x<<std::endl;
+    std::cout<<"x="<<x<<std::endl;
     std::cout<<p<<std::endl;
     return 0;
-}
+};

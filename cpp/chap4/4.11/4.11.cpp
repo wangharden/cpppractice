@@ -1,12 +1,12 @@
 #include<iostream>
 #include<limits>
-using namespace std();
+using namespace std;
 int main() {
 	int n;
 	do {
 		cout << "please enter the number of list";
 		cin >> n;
-	}whlie(n > 0 && n <= 10);
+	} while (n < 0 || n > 100);
 	int smallest = numeric_limits<int>::max();
 	int largest = numeric_limits<int>::min();
 	int num = 0;
